@@ -1,0 +1,19 @@
+{
+  "name": "parallax",
+  "version": "0.0.0",
+  "authors": [
+    "Dan Hahn <dan@svahtml.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "parallax": "git://github.com/pixelcog/parallax.js.git"
+  }
+}

@@ -1,0 +1,17 @@
+body {
+  background-color: #c0c0c0; }
+
+.header {
+  background-color: hotpink;
+  color: white; }
+  .header .container {
+    padding: 20px;
+    background-color: #ff369b; }
+    .header .container h1 {
+      margin: 0; }
+      .header .container h1 small {
+        color: black; }
+
+.parallax-window {
+  min-height: 50vh;
+  background: transparent; }

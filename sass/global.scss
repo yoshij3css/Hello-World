@@ -1,0 +1,26 @@
+$bgcolor: #c0c0c0;
+$header: hotpink;
+
+body {
+	background-color: $bgcolor;
+}
+
+.header {
+	background-color: $header;
+	color: white;
+	.container {
+		padding: 20px;
+		background-color: darken($header, 10%);
+		h1 {
+			margin: 0;
+			small {
+				color: black;
+			}
+		}
+	}
+}
+
+.parallax-window {
+	min-height: 50vh;
+	background: transparent;
+}
